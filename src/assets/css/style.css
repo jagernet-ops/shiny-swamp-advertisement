@@ -1,66 +1,164 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap');
+@font-face {
+    font-family: Poppins;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap');
+  }
 body{
     background-color: rgb(62, 68, 60);
     font-family: 'Lato';
-    color: rgb(166,185,111);
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+
 
 }
 h1 {
+    font-family: Poppins;
     text-align: center;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0), 2px 2px 0px rgb(0, 0, 0);
+    font-style: 'Poppins', sans-serif;
+    font-size: 60px;
+    line-height: 1.15;
+    color: rgba(0, 0, 0, 0.8);
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    top: -25px;
 }
 h2 {
     padding-left: 40px;
+    text-shadow: 1px 1px 0px black, 1px 1px 0px black;
+    font-family: Poppins;
+    color:rgb(0, 0, 0)
 }
-p {
-    padding-left: 40px;
-    text-align: justify;
+p1 {
+    text-align: left;
+    color: rgb(46, 46, 46);
+    font-weight: 0px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 0px;
+    display:block;
+    width: 850px;
+    padding-left: 25px;
+}
+p2 {
+    text-align: left;
+    color: rgb(46, 46, 46);
+    font-weight: 0px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 0px;
+    display:block;
+    width: 800px;
+    padding-left: 25px;
+    position: relative
+}
+p4 {
+    padding-left: 25px;
+    text-align: left;
+    color: black;
+    display:block;
+    position: relative;
+    bottom: 450px;
+    font-size: 15px;
+}
+p5 {
+    padding-left: 25px;
+    text-align: left;
+    color: black;
+    display:block;
+    width: 250px;
+    position: relative;
+    bottom: 450px;
+    font-size: 15px;
+}
+p6 {
+    padding-left: 25px;
+    text-align: left;
+    color: black;
+    display:block;
+    position: relative;
+    bottom: 450px;
+    font-size: 15px;
+}
+p7 {
+    padding-left: 25px;
+    text-align: left;
+    color: black;
+    display:block;
+    position: relative;
+    bottom: 300px;
 }
 .banner{
-    background-color: rgb(62,68,60);
+    background-color: rgb(85,92,69);
     position:absolute;
     top: 100px;
     right:0px;
     bottom:0px;
     left:0px;
 }
-#join-discord{
-    margin-left: 25px;
-    display: inline-block;
-    padding: 15px 25px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    outline: none;
-    color: #000000;
-    background-color: rgb(190,214,158);
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px rgb(130,140,81);
-    position: absolute;
-    right: 300px;
-    z-index: 1;
-}
 .background{
-    background-color: rgba(47, 40, 36);
+    background-color: rgb(166,185,111);
     position:absolute;
     top: 0px;
     right:200px;
     bottom:0px;
     left:200px;
 }
-
-#join-discord:hover{
-    background-color: rgb(85, 92, 69);
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: rgb(96, 107, 42);
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgb(190,214,158) 0 2px 4px,rgb((166,185,111)) 0 7px 13px -3px,#6363a300 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Poppins;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  position: absolute;
+  bottom: 745px;
+  left: 1020px;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
 }
-#join-discord:active{
-    background-color: rgb(85,92,69);
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
 }
 #swamp-icon{
-    float: right;
     padding: 20px;
     width: 350px;
+    position: relative;
+    right: -900px;
+    bottom: 280px;
 }
 #java-add-server-icon{
     display: block;
@@ -83,7 +181,12 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-family: Poppins;
 }
 ul {
+    padding-bottom: 25px;
+    padding-top: 25px;
     padding-left: 40px;
+    position: relative;
+    bottom: 420px;
 }
