@@ -122,6 +122,8 @@ p {
     position: relative;
     right: -900px;
     bottom: 280px;
+    z-index: -1;
+    
 }
 #java-add-server-icon{
     display: block;
@@ -160,12 +162,16 @@ p {
     margin-right: auto;
     font-family: Poppins;
 }
+#credits{
+    position: absolute;
+    top: 500px;
+}
 ul {
     padding-bottom: 25px;
     padding-top: 25px;
     padding-left: 40px;
-    position: relative;
-    bottom: 400px;
+    position: absolute;
+    top: 400px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -368,7 +374,6 @@ ul {
         padding-top: 25px;
         padding-left: 40px;
         position: relative;
-        bottom: 400px;
     }
     
 }
