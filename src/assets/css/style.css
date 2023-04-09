@@ -19,7 +19,7 @@ h1 {
     line-height: 1.15;
     color: rgba(0, 0, 0, 0.8);
     -webkit-font-smoothing: antialiased;
-    position: relative;
+    position: sticky;
     top: -25px;
 }
 h2 {
@@ -80,7 +80,7 @@ p6 {
     font-size: 15px;
 }
 
-.home {
+.button {
     align-items: center;
     appearance: none;
     background-color: rgb(0, 0, 0);
@@ -110,7 +110,7 @@ p6 {
 }
 #discord-button {
     float: right;
-    right: 105px;
+    right: 10vw;
     bottom: 280px;
     text-shadow: 0.5px 0.5px 0px black;
 }
@@ -124,22 +124,22 @@ p6 {
     bottom: 2360px;
     right: 25px;
 }
-.home:focus {
+.button:focus {
     box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
   }
   
-  .home:hover {
+  .button:hover {
     box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
     transform: translateY(-2px);
   }
   
-  .home:active {
+  .button:active {
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
   }
 .banner{
     background-color: rgb(85,92,69);
-    position:absolute;
+    position: sticky;
     top: 100px;
     right: 0px;
     bottom: 0px;
