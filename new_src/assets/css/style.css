@@ -84,7 +84,7 @@ p {
 }
 #bedrock-home {
     float: right;
-    bottom: 2360px;
+    bottom: 2320px;
     right: 25px;
 }
 .button:focus {
@@ -100,22 +100,6 @@ p {
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
   }
-.banner{
-    background-color: rgb(85,92,69);
-    position: sticky;
-    top: 100px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-}
-.background{
-    background-color: rgb(166,185,111);
-    position:absolute;
-    top: 0px;
-    right:200px;
-    bottom: auto;
-    left:200px;
-}
 #swamp-icon{
     padding: 20px;
     width: 300px;
