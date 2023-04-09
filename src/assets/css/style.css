@@ -9,8 +9,6 @@ body{
     font-family: 'Lato';
     font-weight: 900;
     color: rgb(0, 0, 0);
-
-
 }
 h1 {
     font-family: Poppins;
@@ -112,7 +110,7 @@ p6 {
 }
 #discord-button {
     float: right;
-    right: 130px;
+    right: 105px;
     bottom: 280px;
     text-shadow: 0.5px 0.5px 0px black;
 }
@@ -123,7 +121,7 @@ p6 {
 }
 #bedrock-home {
     float: right;
-    bottom: 925px;
+    bottom: 2360px;
     right: 25px;
 }
 .home:focus {
@@ -143,18 +141,17 @@ p6 {
     background-color: rgb(85,92,69);
     position:absolute;
     top: 100px;
-    right:0px;
-    bottom:0px;
-    left:0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
 }
 .background{
     background-color: rgb(166,185,111);
     position:absolute;
     top: 0px;
     right:200px;
-    bottom:0px;
+    bottom: auto;
     left:200px;
-
 }
 #swamp-icon{
     padding: 20px;
@@ -186,10 +183,24 @@ p6 {
     margin-right: auto;
     font-family: Poppins;
 }
+#bedrock-together-dl{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poppins;
+}
+#bedrock-together-ip{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poppins;
+}
 ul {
     padding-bottom: 25px;
     padding-top: 25px;
     padding-left: 40px;
     position: relative;
-    bottom: 420px;
+    bottom: 400px;
 }
