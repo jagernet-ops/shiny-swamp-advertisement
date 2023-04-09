@@ -170,7 +170,13 @@ ul {
     position: absolute;
     top: 400px;
 }
+a {
+    color: hotpink;
+}
 
+a:visited {
+    color: hotpink;
+}
 @media only screen and (max-width: 1024px) {
     body {
         background-color: rgb(255, 255, 255);
