@@ -85,7 +85,7 @@ h3 {
 }
 #bedrock-home {
     float: right;
-    bottom: 2360px;
+    bottom: 2320px;
     right: 25px;
 }
 .button:focus {
@@ -101,7 +101,6 @@ h3 {
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
   }
-
 #swamp-icon{
     padding: 20px;
     width: 300px;
