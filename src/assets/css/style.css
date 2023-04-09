@@ -114,6 +114,18 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
+#bedrock-together{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bedrock-together-server-info{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 #bedrock-server-info{
     width: 500px;
     display: block;
@@ -134,6 +146,9 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     font-family: Poppins;
+}
+#ending-message{
+    font-size: larger;
 }
 ul {
     padding-bottom: 25px;
