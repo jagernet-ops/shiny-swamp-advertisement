@@ -24,64 +24,18 @@ body{
     z-index: 1;
     padding: 20px 20px;
 }
-h2 {
-    padding-left: 40px;
-    text-shadow: 1px 1px 0px black, 1px 1px 0px black;
-    font-family: Poppins;
-    color:rgb(0, 0, 0)
-}
-p1 {
+p {
     text-align: left;
-    color: rgb(46, 46, 46);
-    font-weight: 0px;
-    font-style: normal;
-    font-family: Poppins;
-    font-weight: 0px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins';
     display:block;
-    width: 850px;
-    padding-left: 25px;
-}
-p2 {
-    text-align: left;
-    color: rgb(46, 46, 46);
-    font-weight: 0px;
-    font-style: normal;
-    font-family: Poppins;
-    font-weight: 0px;
-    display:block;    
-    width: 800px;
-    padding-left: 25px;
-    position: relative;
-}
-p4 {
-    padding-left: 25px;
-    text-align: left;
-    color: black;
-    display:block;
-    position: relative;
-    bottom: 450px;
-    font-size: 15px;
-}
-p5 {
-    padding-left: 25px;
-    text-align: left;
-    color: black;
-    display:block;
-    width: 250px;
-    position: relative;
-    bottom: 450px;
-    font-size: 15px;
-}
-p6 {
-    padding-left: 25px;
-    text-align: left;
-    color: black;
-    display:block;
-    position: relative;
-    bottom: 450px;
-    font-size: 15px;
+    padding-left: 10px;
 }
 
+h3 {
+    text-align: center;
+    text-shadow: 1px 1px 0px black;
+}
 .button {
     align-items: center;
     appearance: none;
@@ -112,7 +66,6 @@ p6 {
 }
 #discord-button {
     float: right;
-    bottom: 
 }
 #java-home {
     float: right;
@@ -137,22 +90,7 @@ p6 {
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
   }
-.banner{
-    background-color: rgb(85,92,69);
-    position: sticky;
-    top: 100px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-}
-.background{
-    background-color: rgb(166,185,111);
-    position:absolute;
-    top: 0px;
-    right:200px;
-    bottom: auto;
-    left:200px;
-}
+
 #swamp-icon{
     padding: 20px;
     width: 300px;
@@ -205,8 +143,8 @@ ul {
     bottom: 400px;
 }
 
-@media only screen and (max-width: 600px) {
-    body{
+@media only screen and (max-width: 1024px) {
+    body {
         background-color: rgb(255, 255, 255);
         font-family: 'Lato';
         font-weight: 900;
@@ -215,76 +153,27 @@ ul {
     .sticky {
         font-family: Poppins;
         text-align: center;
-        text-shadow: 2px 2px 0px rgb(0, 0, 0), 2px 2px 0px rgb(0, 0, 0);
+        text-shadow: 1px 1px 0px rgb(0, 0, 0);
         font-style: 'Poppins', sans-serif;
         font-size: 30px;
-        line-height: 1.15;
         color: rgba(0, 0, 0, 0.8);
         -webkit-font-smoothing: antialiased;
         position: relative;
-        top: -25px;
+        top: 10px;
         z-index: 1;
-        padding: 20px 20px;
     }
-    h2 {
-        text-align: center;
-        text-shadow: 1px 1px 0px black, 1px 1px 0px black;
-        font-family: Poppins;
-        color:rgb(0, 0, 0)
-
-    }
-    p1 {
+    p {
         text-align: left;
-        color: rgb(46, 46, 46);
-        font-weight: 0px;
-        font-style: normal;
-        font-family: Poppins;
-        font-weight: 0px;
+        color: rgb(0, 0, 0);
+        font-family: 'Poppins';
         display:block;
-        width: 325px;
-        padding-left: 25px;
-    }
-    p2 {
-        text-align: left;
-        color: rgb(46, 46, 46);
-        font-weight: 0px;
-        font-style: normal;
-        font-family: Poppins;
-        font-weight: 0px;
-        display:block;    
-        width: 800px;
-        padding-left: 25px;
-        position: relative;
-    }
-    p4 {
-        padding-left: 25px;
-        text-align: left;
-        color: black;
-        display:block;
-        position: relative;
-        bottom: 450px;
-        font-size: 15px;
-    }
-    p5 {
-        padding-left: 25px;
-        text-align: left;
-        color: black;
-        display:block;
-        width: 250px;
-        position: relative;
-        bottom: 450px;
-        font-size: 15px;
-    }
-    p6 {
-        padding-left: 25px;
-        text-align: left;
-        color: black;
-        display:block;
-        position: relative;
-        bottom: 450px;
-        font-size: 15px;
+        padding-left: 10px;
     }
     
+    h3 {
+        text-align: center;
+        text-shadow: 1px 1px 0px black;
+    }
     .button {
         align-items: center;
         appearance: none;
@@ -302,8 +191,6 @@ ul {
         line-height: 1;
         list-style: none;
         padding: 10px 10px;
-        position: relative;
-        text-align: left;
         text-decoration: none;
         transition: box-shadow .15s,transform .15s;
         user-select: none;
@@ -311,22 +198,26 @@ ul {
         touch-action: manipulation;
         white-space: nowrap;
         will-change: box-shadow,transform;
-        font-size: 18px;
     }
     #discord-button {
-        float: right;
-        bottom: 
-    }
+        display:inline-block;
+        text-align: center;
+        bottom: 0px;    
+        right: 35.6%;
+        }
     #java-home {
-        float: right;
-        bottom: 620px;
-        right: 25px;
+        display:inline-block;
+        text-align: center;
+        right: 35.6%;
+        bottom: 0px;    
     }
     #bedrock-home {
-        float: right;
-        bottom: 2360px;
-        right: 25px;
+        display:inline-block;
+        text-align: center;
+        right: 35.6%;
+        bottom: 0px;    
     }
+
     .button:focus {
         box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
       }
@@ -337,75 +228,57 @@ ul {
       }
       
       .button:active {
-        box-shadow: #D6D6E7 0 3px 7px inset;
+        box-shadow: hsl(240, 26%, 87%) 0 3px 7px inset;
         transform: translateY(2px);
       }
-    .banner{
-        background-color: rgb(85,92,69);
-        position: sticky;
-        top: 100px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-    }
-    .background{
-        background-color: rgb(166,185,111);
-        position:absolute;
-        top: 0px;
-        right:200px;
-        bottom: auto;
-        left:200px;
-    }
-    #swamp-icon{
-        padding: 20px;
-        width: 300px;
-        position: relative;
-        right: -900px;
-        bottom: 280px;
-    }
+
     #java-add-server-icon{
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
+        margin-left: 0;
+        margin-right: 0;
+        width: 95%;
     }
     #java-server-info{
         display:block;
-        margin-right: auto;
-        margin-left: auto;
+        margin-right: 0;
+        margin-left: 0;
+        width: 95%;
     }
     #bedrock-add-server-icon{
-        width: 500px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        display:block;
+        margin-right: 0;
+        margin-left: 0;
+        width: 95%;
     }
     #bedrock-server-info{
-        width: 500px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        font-family: Poppins;
+        display:block;
+        margin-right: 0;
+        margin-left: 0;
+        width: 95%;
     }
     #bedrock-together-dl{
-        width: 500px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        font-family: Poppins;
+        display:block;
+        margin-right: 0;
+        margin-left: 0;
+        width: 95%;
     }
     #bedrock-together-ip{
-        width: 500px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        font-family: Poppins;
+        display:block;
+        margin-right: 0;
+        margin-left: 0;
+        width: 95%;
     }
     ul {
-        padding-bottom: 25px;
-        padding-top: 25px;
-        padding-left: 40px;
-        position: relative;
-        bottom: 400px;
+        top: 10px;
+        right: 15px;
+         
     }
-    
+    #credits {
+        font-size: 12px;
+        text-align: center;
+        line-height: 0.2px;
+    }
+
+    .java-headers {
+        float: left;
+    }
 }
