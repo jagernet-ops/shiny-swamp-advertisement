@@ -31,7 +31,7 @@ h2 {
     font-family: Poppins;
     color:rgb(0, 0, 0)
 }
-p1 {
+p {
     text-align: left;
     color: rgb(46, 46, 46);
     font-weight: 0px;
@@ -42,46 +42,7 @@ p1 {
     width: 850px;
     padding-left: 25px;
 }
-p2 {
-    text-align: left;
-    color: rgb(46, 46, 46);
-    font-weight: 0px;
-    font-style: normal;
-    font-family: Poppins;
-    font-weight: 0px;
-    display:block;    
-    width: 800px;
-    padding-left: 25px;
-    position: relative;
-}
-p4 {
-    padding-left: 25px;
-    text-align: left;
-    color: black;
-    display:block;
-    position: relative;
-    bottom: 450px;
-    font-size: 15px;
-}
-p5 {
-    padding-left: 25px;
-    text-align: left;
-    color: black;
-    display:block;
-    width: 250px;
-    position: relative;
-    bottom: 450px;
-    font-size: 15px;
-}
-p6 {
-    padding-left: 25px;
-    text-align: left;
-    color: black;
-    display:block;
-    position: relative;
-    bottom: 450px;
-    font-size: 15px;
-}
+
 
 .button {
     align-items: center;
@@ -317,7 +278,7 @@ ul {
     }
     #discord-button {
         float: right;
-        bottom: 
+        
     }
     #java-home {
         float: right;
