@@ -179,12 +179,13 @@ a:visited {
 }
 @media only screen and (max-width: 1024px) {
     body {
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(62, 68, 60);
         font-family: 'Lato';
         font-weight: 900;
         color: rgb(0, 0, 0);
     }
     .sticky {
+        background-color: rgb(85,92,69);
         font-family: Poppins;
         text-align: center;
         text-shadow: 1px 1px 0px rgb(0, 0, 0);
@@ -195,6 +196,12 @@ a:visited {
         position: relative;
         top: 10px;
         z-index: 1;
+    }
+    a {
+        color: hotpink;
+    }
+    a:visited {
+        color: hotpink;
     }
     p {
         text-align: left;
