@@ -1,4 +1,9 @@
 # shiny-swamp-advertisement
-Website for Shinysocks Minecraft Server
+Website for Noah Dinan's crossplay minecraft server.
 
-[Shiny's Swamp](http://play.shinysocks.net)
+https://play.shinysocks.net
+
+## Credits:
+- [@jagernet-ops](https://github.com/jagernet-ops)
+- [@hehoat](https://github.com/hehoat1)
+- [@shinysocks](https://gitlab.com/shinysocks)
