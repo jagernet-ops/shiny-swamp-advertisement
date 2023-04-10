@@ -41,8 +41,6 @@ p {
     padding-left: 25px;
     text-shadow: 1px 1px 1px black;
 }
-
-
 h3 {
     text-align: center;
     text-shadow: 1px 1px 0px black;
@@ -90,63 +88,19 @@ h3 {
     box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
   }
   
-  .button:hover {
+.button:hover {
     box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
     transform: translateY(-2px);
-  }
+}
   
-  .button:active {
+.button:active {
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
-  }
-    
-#java-add-server-icon{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
 }
-#java-server-info{
-    display:block;
-    margin-right: auto;
-    margin-left: auto;
-}
-#bedrock-add-server-icon{
-    width: 500px;
+#info-image{
+    width: 40%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#bedrock-together{
-    width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#bedrock-together-server-info{
-    width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#bedrock-server-info{
-    width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Poppins;
-}
-#bedrock-together-dl{
-    width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Poppins;
-}
-#bedrock-together-ip{
-    width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 2%;
     font-family: Poppins;
 }
 #keanu-is-hot {
@@ -283,41 +237,12 @@ a:visited {
         box-shadow: hsl(240, 26%, 87%) 0 3px 7px inset;
         transform: translateY(2px);
       }
-
-    #java-add-server-icon{
-        margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-    }
-    #java-server-info{
+    #info-image{
         display:block;
-        margin-right: 0;
-        margin-left: 0;
-        width: 100%;
-    }
-    #bedrock-add-server-icon{
-        display:block;
-        margin-right: 0;
-        margin-left: 0;
-        width: 100%;
-    }
-    #bedrock-server-info{
-        display:block;
-        margin-right: 0;
-        margin-left: 0;
-        width: 100%;
-    }
-    #bedrock-together-dl{
-        display:block;
-        margin-right: 0;
-        margin-left: 0;
-        width: 100%;
-    }
-    #bedrock-together-ip{
-        display:block;
-        margin-right: 0;
-        margin-left: 0;
-        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+        font-family: Poppins;
     }
     #keanu-is-hot {
         width: 0%;
