@@ -74,8 +74,9 @@ h3 {
     will-change: box-shadow,transform;
 }
 #discord-button {
-    left: 40px;
     position: absolute;
+    float: left;
+    left: 35px;
 }
 #java-home {
     bottom: 620px;
@@ -156,21 +157,17 @@ h3 {
     font-family: Poppins;
     position: relative;
     float: right;
-    bottom: 375px;
+    bottom: 500px;
     z-index: -1;
 }
 #credits{
-    position: fixed;
-    top: 520px;
-    padding-top: 100px;
+    position: relative;
+    padding-top: 40px;
     font-size: 12px;
 }
 ul {
-    padding-bottom: 25px;
-    padding-top: 100px;
     padding-left: 40px;
-    position: absolute;
-    top: 420px;
+    position: relative;
 }
 a {
     color: rgb(166,185,111);
@@ -260,6 +257,7 @@ a:visited {
     #discord-button {
         position: static;
         font-size: 17px;
+        float: none;
     }
     #java-home {
         right: 35.6%;
