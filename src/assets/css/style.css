@@ -251,12 +251,12 @@ a:visited {
     #java-home {
         right: 35.6%;
         bottom: 0px; 
-        padding: 10px 25px;  
+        padding: 10px 33%;  
     }
     #bedrock-home {
         right: 35.6%;
         bottom: 0px;    
-        padding: 10px 25px;
+        padding: 10px 33%;
     }
 
     .button:focus {
