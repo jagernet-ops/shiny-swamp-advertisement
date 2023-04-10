@@ -169,7 +169,7 @@ ul {
     padding-bottom: 25px;
     padding-top: 100px;
     padding-left: 40px;
-    position: fixed;
+    position: absolute;
     top: 420px;
 }
 a {
